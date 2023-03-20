@@ -1,0 +1,12 @@
+Quais são os tipos de bancos de dados e defina quais são os SGBDs
+--------------------------
+Podemos dividir os bancos de dados em 3 categorias:
+
+- Estruturados
+- Semi-estruturados
+- Não estruturados
+
+Bancos estruturados são bancos do tipo SQL, que possuem tabelas bem definidas com colunas e valores, bancos semi-estruturados são bancos que trabalham com pares valor-chave como por exemplo JSON, e não estruturados são bancos noSQL que armazenam dados sem qualquer estrutura bem definida.
+
+
+SGBD's são sistemas de gerenciamento de banco de dados, programas criados para auxiliar um administrador de banco de dados a visualizar, editar, alterar ou manter um banco de dados. Alguns exemplos de SGBD's são o Oracle SQLDeveloper e o PostgreSQL.

@@ -1,0 +1,3 @@
+Defina modelagem conceitual de dados
+-----------------
+Modelagem conceital de dados é um tipo de modelagem que abstrai detalhes relacionados ao banco e à implementação do mesmo, como memória e scripts. O foco da modelagem conceitual é ajudar a definir as tabelas que devem ser criadas, bem como os relacionamentos entre as entidades.

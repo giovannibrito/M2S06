@@ -1,0 +1,12 @@
+Defina as primeiras 3 formas de normalização, com exemplos
+-------------
+
+1ª forma normal - todo atributo de uma entidade deve ser atômicos e não podem ter grupos de repetição.
+Exemplo: Transformar um atributo endereço em vários outros atributos como logradouro, numero, cidade e UF.
+
+2ª forma normal - 1FN + todo atributo de uma entidade deve depender de chave primária inteira.
+Exemplo: Uma tabela de emprestimos bibliotecários com as PK's id_livro, id_leitor e as colunas nome_livro, nome_leitor e data_retirada não segue a 2a forma normal pois alguns atributos não dependem da chave primaria inteira. A coluna nome_livro depende apenas de id_livro, e nome_leitor depende apenas de id_leitor. Podemos então separar essa tabela em 3 diferentes tabelas, uma tabela de leitor, uma tabela de livro e uma tabela de relacionamento.
+
+3ª forma normal -  2FN + todo atributo de uma entidade deve depender somente da chave primária
+Exemplo: Uma tabela que armazene dados de funcionários e alguns dados de seu departamento. As informações de seu departamento não dependem exclusivamente do funcionário, então podem ser armazenadas em um tabela própria.
+
